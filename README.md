@@ -23,4 +23,4 @@ Checking the IP address for the presence in the black list (DNSBL) is carried ou
 - We check that all utilities used are installed on the server (xargs, host, grep, wc), for example, by running the handles ``/usr/lib/zabbix/externalscripts/ip_blacklist.sh 127.0.0.1``
 - We create the necessary items, for example, ``ip_blacklist [192.168.0.1]``, the type ``External check``, and the trigger on ``.last> 0``
 -  If necessary, we put items with a trigger into a template and bind it to the hosts.
-- More details here: www.zabbix.com/documentation/2.2/manual/config/items/itemtypes/external
+- More details here: https://www.zabbix.com/documentation/4.0/manual/config/items/itemtypes/external
