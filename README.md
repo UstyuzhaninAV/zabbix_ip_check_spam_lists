@@ -1,4 +1,4 @@
-# zabbix_ip_check_spam_lists
+# zabbix ip check in spam lists
 
 Public spam databases or “black lists” of IP addresses contain information about IP, which for some reason has been declared unfriendly to users. We will not delve into the technological details; It is important that email programs and services use information from these and their own databases in order to protect recipients' email inboxes from unsolicited email, from spam.
 
